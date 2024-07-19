@@ -9,7 +9,7 @@ const Banner = () => {
             <div className='order-2 md:order-1 w-full md:w-1/2 mt-12 md:mt-32'>
             
                 <div className='space-y-12'>
-                    <h1 className='font-bold text-4xl'>Hello, welcomes hereto learn something <span className='text-pink-500'>new everyday!!!</span> </h1>
+                    <h1 className='font-bold text-4xl'>Hello, welcomes here to learn something <span className='text-pink-500'>new everyday!!!</span> </h1>
 
                     <p className='text-xl'>
                         Discover a world of stories at our bookstore. Explore diverse genres, uncover hidden gems, and ignite your 
@@ -31,12 +31,12 @@ const Banner = () => {
                         <input type="text" className="grow" placeholder="Email" />
                         </label>
                 </div>
-                <button className="btn btn-active mt-6 btn-secondary">Secondary</button>
+                <button className="btn btn-active mt-6 btn-secondary">Get Started</button>
             </div>
 
 
             {/* right part */}
-            <div className='order-1 mt-20 ml-20 w-full md:w-1/2'>
+            <div className='order-1 mt-20 w-full md:ml-20 md:w-1/2 '>
                 <img src={new_ban} className='md:w-[550px] md:h-[460px] md:ml-12' alt="" />
             </div>
 
